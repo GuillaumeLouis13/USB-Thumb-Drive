@@ -1,0 +1,23 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "63badbc8-4647-4761-93b1-f371957ab2c8")
+	(paper "A4")
+	(title_block
+		(title "USB Smart Drive")
+		(date "2026-06-05")
+		(rev "Revision 1.0")
+		(company "Guillaume LOUIS")
+	)
+	(lib_symbols)
+	(bus_entry
+		(at 147.32 146.05)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb41c5f6-c509-4f4c-b153-8242625248e8")
+	)
+)

@@ -8,7 +8,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "Revision 1.0"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -423,6 +423,26 @@
     [
       "61284d1f-c8a6-45b4-aa7f-ae2816ab8ea5",
       "USB-Thumb-Drive"
+    ],
+    [
+      "c78825f3-dda6-4079-a5d7-5fb9e3395d2a",
+      "ORING_POWER"
+    ],
+    [
+      "84c9881a-85b2-4d23-90bd-b303bdca9b8e",
+      "BUCK_CONVERTER"
+    ],
+    [
+      "b6954257-1e02-4a93-b9ee-e97c2a0c5516",
+      "USB_BRIDGE"
+    ],
+    [
+      "9fdf3ad5-1b55-4460-a8c0-0fb66c6d1c2e",
+      "RP2040"
+    ],
+    [
+      "ca50ca8d-e0c7-4aad-ae92-c1fe4b50bba9",
+      "eMMC_STORAGE"
     ]
   ],
   "text_variables": {},
