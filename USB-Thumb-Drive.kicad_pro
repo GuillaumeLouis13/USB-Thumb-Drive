@@ -416,7 +416,7 @@
         "uuid": "61284d1f-c8a6-45b4-aa7f-ae2816ab8ea5"
       }
     ],
-    "used_designators": "#PWR201-205,C201,R201-205,#FLG201-202,U201-202",
+    "used_designators": "L301,D301-302,#PWR201-205,#PWR301-302,C201-202,C301-305,R201-205,R301-303,#FLG201-202,#FLG301,TP201-202,TP301-302,U201-202,U301",
     "variants": []
   },
   "sheets": [
