@@ -1221,6 +1221,16 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 93.98) (xy 222.25 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24714880-ff7d-4ef5-ab06-6bd85ef52d82")
+	)
+	(wire
+		(pts
 			(xy 176.53 58.42) (xy 187.96 58.42)
 		)
 		(stroke
@@ -1301,6 +1311,16 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 93.98) (xy 222.25 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3827a5b9-b8e7-4c74-9d12-39e52fe09f55")
+	)
+	(wire
+		(pts
 			(xy 68.58 132.08) (xy 90.17 132.08)
 		)
 		(stroke
@@ -1328,6 +1348,16 @@
 			(type default)
 		)
 		(uuid "44883978-8c3a-422c-b3a0-869ac246db0b")
+	)
+	(wire
+		(pts
+			(xy 222.25 96.52) (xy 228.6 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "486055e0-4283-4530-b44e-ff20ce701b75")
 	)
 	(wire
 		(pts
@@ -1531,6 +1561,16 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 87.63) (xy 228.6 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82c3abe8-a2cb-4c87-912b-c7f2b46b0d6d")
+	)
+	(wire
+		(pts
 			(xy 66.04 31.75) (xy 68.58 31.75)
 		)
 		(stroke
@@ -1618,6 +1658,16 @@
 			(type default)
 		)
 		(uuid "91b90edb-09fd-4669-aa63-12743575692d")
+	)
+	(wire
+		(pts
+			(xy 214.63 85.09) (xy 228.6 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9311882d-4057-4f2d-acd5-4962c22296e1")
 	)
 	(wire
 		(pts
@@ -3451,6 +3501,36 @@
 				(justify left)
 			)
 		)
+		(pin "MMCD[0:7]" bidirectional
+			(at 214.63 93.98 0)
+			(uuid "b1875f86-247e-4792-8633-a6cc1b61f34b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MMC_CLK" output
+			(at 214.63 85.09 0)
+			(uuid "46a746fa-2a64-4db1-a74a-3da867b5a99a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MMC_CMD" bidirectional
+			(at 214.63 87.63 0)
+			(uuid "4f455894-bbd5-44d4-8cb6-441fd55c210c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "USB-Thumb-Drive"
 				(path "/61284d1f-c8a6-45b4-aa7f-ae2816ab8ea5"
@@ -3591,6 +3671,36 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "MMC_CLK" input
+			(at 228.6 85.09 180)
+			(uuid "45f349ea-ac57-4601-9734-a9edcd4aef72")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MMC_CMD" bidirectional
+			(at 228.6 87.63 180)
+			(uuid "d756f807-bb2e-469f-aaaa-bd73b18771be")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MMC_DATA[0:7]" bidirectional
+			(at 228.6 96.52 180)
+			(uuid "362f7ecd-8714-497f-92b5-299b046020ca")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
