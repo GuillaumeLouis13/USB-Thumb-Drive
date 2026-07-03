@@ -5050,16 +5050,6 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 66.04) (xy 231.14 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3926eee9-d699-4a0e-9a5f-93352d936e98")
-	)
-	(wire
-		(pts
 			(xy 269.24 76.2) (xy 269.24 77.47)
 		)
 		(stroke
@@ -5160,7 +5150,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 66.04) (xy 200.66 66.04)
+			(xy 179.07 66.04) (xy 231.14 66.04)
 		)
 		(stroke
 			(width 0)
@@ -10950,16 +10940,6 @@
 			"DkioAQAAAAAAAAAAyOH/AWnUr3MPoTRwAAAAAElFTkSuQmCC"
 		)
 	)
-	(label "Vcc_eMMC"
-		(at 179.07 38.1 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "019bcb04-5a0f-4d22-b8d1-3188f1cd6c3a")
-	)
 	(label "Vccq_eMMC"
 		(at 80.01 48.26 0)
 		(effects
@@ -10980,6 +10960,16 @@
 		)
 		(uuid "355ce3bc-0924-4940-9cc6-7f36bb030db1")
 	)
+	(label "Vcc_eMMC"
+		(at 182.88 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "36b0eef8-1272-46c0-b849-61f79fbf29db")
+	)
 	(label "MMCDA6"
 		(at 111.76 101.6 0)
 		(effects
@@ -10989,16 +10979,6 @@
 			(justify left bottom)
 		)
 		(uuid "63e6418c-0a57-4374-b261-1f873a088f37")
-	)
-	(label "Vccq_eMMC"
-		(at 185.42 66.04 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "665f0fbb-61ab-43da-a71b-8cffe01fe2d8")
 	)
 	(label "MMCDA4"
 		(at 111.76 96.52 0)
@@ -11069,6 +11049,16 @@
 			(justify left bottom)
 		)
 		(uuid "e5a2bede-090a-4e66-abaf-b5475c17f108")
+	)
+	(label "Vccq_eMMC"
+		(at 185.42 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eb2e70a4-4882-4649-9de0-b055924ed10c")
 	)
 	(label "MMCDA5"
 		(at 111.76 99.06 0)
@@ -12167,6 +12157,91 @@
 			(project "USB-Thumb-Drive"
 				(path "/61284d1f-c8a6-45b4-aa7f-ae2816ab8ea5/ca50ca8d-e0c7-4aad-ae92-c1fe4b50bba9"
 					(reference "#PWR0604")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:NetTie_3")
+		(at 242.57 43.18 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "788713ee-41aa-4ce5-ba3d-63bb661c5c4f")
+		(property "Reference" "NT601"
+			(at 246.38 41.9099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "NetTie_3"
+			(at 246.38 44.4499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 242.57 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 242.57 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Net tie, 3 pins"
+			(at 242.57 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ca3b165b-cc20-4c3b-a3d9-8d45d3c57386")
+		)
+		(pin "3"
+			(uuid "7718d339-abde-4b4e-9ae9-240e5d76fd82")
+		)
+		(pin "2"
+			(uuid "bb4cb10c-f69e-4556-9c9e-bb69c74852b6")
+		)
+		(instances
+			(project "USB-Thumb-Drive"
+				(path "/61284d1f-c8a6-45b4-aa7f-ae2816ab8ea5/ca50ca8d-e0c7-4aad-ae92-c1fe4b50bba9"
+					(reference "NT601")
 					(unit 1)
 				)
 			)
@@ -14426,91 +14501,6 @@
 			(project "USB-Thumb-Drive"
 				(path "/61284d1f-c8a6-45b4-aa7f-ae2816ab8ea5/ca50ca8d-e0c7-4aad-ae92-c1fe4b50bba9"
 					(reference "#PWR0605")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:NetTie_3")
-		(at 242.57 43.18 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fa7628b7-6b3e-4401-8ddc-52a7a512ea2d")
-		(property "Reference" "NT602"
-			(at 246.38 41.9099 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "NetTie_3"
-			(at 246.38 44.4499 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 242.57 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 242.57 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Net tie, 3 pins"
-			(at 242.57 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fcfddd60-695a-4b19-8b52-38701388c558")
-		)
-		(pin "3"
-			(uuid "28857d2f-5875-4622-9897-d32372a1fe3e")
-		)
-		(pin "2"
-			(uuid "ad9fcb8d-d195-4bfd-a536-7387a133c9d4")
-		)
-		(instances
-			(project "USB-Thumb-Drive"
-				(path "/61284d1f-c8a6-45b4-aa7f-ae2816ab8ea5/ca50ca8d-e0c7-4aad-ae92-c1fe4b50bba9"
-					(reference "NT602")
 					(unit 1)
 				)
 			)

@@ -2,3 +2,4 @@
 .DS_Store
 USB-Thumb-Drive-backups/
 *.lck
+**/\.history 3/
