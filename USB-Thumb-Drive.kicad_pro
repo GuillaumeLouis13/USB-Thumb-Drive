@@ -244,7 +244,32 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "multiple_net_names|1790700|1092200|7078e96b-c9f9-4951-9205-fc0fac2ca511|0988025f-ffef-4929-ba8d-a5054705f6ab|/61284d1f-c8a6-45b4-aa7f-ae2816ab8ea5/ca50ca8d-e0c7-4aad-ae92-c1fe4b50bba9|/61284d1f-c8a6-45b4-aa7f-ae2816ab8ea5/ca50ca8d-e0c7-4aad-ae92-c1fe4b50bba9|/61284d1f-c8a6-45b4-aa7f-ae2816ab8ea5/ca50ca8d-e0c7-4aad-ae92-c1fe4b50bba9",
+        ""
+      ],
+      [
+        "multiple_net_names|1828800|381000|d459625e-761d-4b89-b2be-55010a2f68b1|36b0eef8-1272-46c0-b849-61f79fbf29db|/61284d1f-c8a6-45b4-aa7f-ae2816ab8ea5/ca50ca8d-e0c7-4aad-ae92-c1fe4b50bba9|/61284d1f-c8a6-45b4-aa7f-ae2816ab8ea5/ca50ca8d-e0c7-4aad-ae92-c1fe4b50bba9|/61284d1f-c8a6-45b4-aa7f-ae2816ab8ea5/ca50ca8d-e0c7-4aad-ae92-c1fe4b50bba9",
+        ""
+      ],
+      [
+        "multiple_net_names|800100|482600|b1b137c5-2526-4662-b7d4-ed8caa833e33|1ef92c00-67d5-4531-a23e-8f442e640bd6|/61284d1f-c8a6-45b4-aa7f-ae2816ab8ea5/ca50ca8d-e0c7-4aad-ae92-c1fe4b50bba9|/61284d1f-c8a6-45b4-aa7f-ae2816ab8ea5/ca50ca8d-e0c7-4aad-ae92-c1fe4b50bba9|/61284d1f-c8a6-45b4-aa7f-ae2816ab8ea5/ca50ca8d-e0c7-4aad-ae92-c1fe4b50bba9",
+        ""
+      ],
+      [
+        "pin_to_pin|1536700|622300|6cd67504-17d6-49ed-8ed0-95d64208cb37|e6cda8a1-774d-4c2a-acef-2a4c7c13c35b|/61284d1f-c8a6-45b4-aa7f-ae2816ab8ea5/b6954257-1e02-4a93-b9ee-e97c2a0c5516|/61284d1f-c8a6-45b4-aa7f-ae2816ab8ea5/b6954257-1e02-4a93-b9ee-e97c2a0c5516|/61284d1f-c8a6-45b4-aa7f-ae2816ab8ea5/b6954257-1e02-4a93-b9ee-e97c2a0c5516",
+        ""
+      ],
+      [
+        "pin_to_pin|1536700|800100|55f7dedc-317d-4234-b463-943c607edef1|2022a425-53d6-4d23-9e13-8a424178fbe6|/61284d1f-c8a6-45b4-aa7f-ae2816ab8ea5/b6954257-1e02-4a93-b9ee-e97c2a0c5516|/61284d1f-c8a6-45b4-aa7f-ae2816ab8ea5/b6954257-1e02-4a93-b9ee-e97c2a0c5516|/61284d1f-c8a6-45b4-aa7f-ae2816ab8ea5/b6954257-1e02-4a93-b9ee-e97c2a0c5516",
+        ""
+      ],
+      [
+        "pin_to_pin|1663700|762000|5e95ec91-06b6-4d35-9495-21ec10e191b7|d04c469a-2356-42d7-9437-fcb18a86db27|/61284d1f-c8a6-45b4-aa7f-ae2816ab8ea5/c78825f3-dda6-4079-a5d7-5fb9e3395d2a|/61284d1f-c8a6-45b4-aa7f-ae2816ab8ea5/c78825f3-dda6-4079-a5d7-5fb9e3395d2a|/61284d1f-c8a6-45b4-aa7f-ae2816ab8ea5/c78825f3-dda6-4079-a5d7-5fb9e3395d2a",
+        "Only one of the ideal diodes will be active, and driving their Vout pin."
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -590,6 +615,10 @@
       {
         "netclass": "CRYSTAL",
         "pattern": "*RP_X*"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "*"
       }
     ]
   },
@@ -721,7 +750,7 @@
         "uuid": "61284d1f-c8a6-45b4-aa7f-ae2816ab8ea5"
       }
     ],
-    "used_designators": "#PWR802-803",
+    "used_designators": "TP101,R108,R504,R509,#PWR713",
     "variants": []
   },
   "sheets": [
