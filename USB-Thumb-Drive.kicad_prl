@@ -121,7 +121,9 @@
     "files": []
   },
   "schematic": {
-    "hierarchy_collapsed": [],
+    "hierarchy_collapsed": [
+      "/9fdf3ad5-1b55-4460-a8c0-0fb66c6d1c2e/"
+    ],
     "selection_filter": {
       "graphics": true,
       "images": true,
